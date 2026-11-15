@@ -178,3 +178,13 @@ I'm a **Frontend Developer** focused on building clean, modern, and responsive w
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=soft&color=0:FAF7F2,45:EDE4F3,100:D8C6E8&height=100&section=footer" width="100%" />
 </p>
+
+<h2 align="center">Contribution Activity</h2>
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/saja-abo-hassn/saja-abo-hassn/output/github-snake.svg"
+    alt="Purple GitHub Contribution Snake"
+    width="100%"
+  />
+</p>
