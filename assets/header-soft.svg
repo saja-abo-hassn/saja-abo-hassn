@@ -1,0 +1,107 @@
+<svg width="1200" height="280" viewBox="0 0 1200 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="280" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FAF6F2"/>
+      <stop offset="50%" stop-color="#EDE4F3"/>
+      <stop offset="100%" stop-color="#D9C6E8"/>
+      <animate attributeName="x1" values="0;120;0" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1200;1080;1200" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <filter id="blurGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18" result="coloredBlur"/>
+    </filter>
+
+    <linearGradient id="butterflyFill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.90"/>
+      <stop offset="100%" stop-color="#D7C0E8" stop-opacity="0.65"/>
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5B496D"/>
+      <stop offset="100%" stop-color="#7C6598"/>
+    </linearGradient>
+
+    <symbol id="butterfly" viewBox="0 0 60 60">
+      <path d="M29 31
+               C24 17, 10 10, 7 21
+               C5 30, 16 34, 24 32
+               C18 36, 15 45, 22 49
+               C28 52, 31 43, 30 37
+               C31 43, 34 52, 40 49
+               C47 45, 44 36, 38 32
+               C46 34, 57 30, 55 21
+               C52 10, 38 17, 31 31
+               Z" fill="url(#butterflyFill)"/>
+      <circle cx="30" cy="31" r="2.5" fill="#A98BC8"/>
+      <path d="M30 19 L30 43" stroke="#A98BC8" stroke-width="2.2" stroke-linecap="round"/>
+      <path d="M29 19 C26 13, 21 11, 19 13" stroke="#A98BC8" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+      <path d="M31 19 C34 13, 39 11, 41 13" stroke="#A98BC8" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+    </symbol>
+  </defs>
+
+  <!-- background -->
+  <rect width="1200" height="280" rx="26" fill="url(#bg)"/>
+
+  <!-- soft glow blobs -->
+  <circle cx="210" cy="95" r="70" fill="#FFFFFF" fill-opacity="0.45" filter="url(#blurGlow)">
+    <animate attributeName="cx" values="210;250;210" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1010" cy="80" r="85" fill="#E7D6F3" fill-opacity="0.65" filter="url(#blurGlow)">
+    <animate attributeName="cy" values="80;95;80" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="880" cy="210" r="90" fill="#F8ECF4" fill-opacity="0.45" filter="url(#blurGlow)">
+    <animate attributeName="cx" values="880;840;880" dur="10s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- animated butterflies -->
+  <g opacity="0.95">
+    <g>
+      <use href="#butterfly" x="90" y="55" width="46" height="46" opacity="0.8"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; 28,-16; 52,-4; 70,-18; 90,-6"
+        dur="6s" repeatCount="1" fill="freeze"/>
+      <animateTransform attributeName="transform" additive="sum" type="rotate"
+        values="0 110 75; 5 110 75; -5 110 75; 0 110 75"
+        dur="2s" repeatCount="3" fill="freeze"/>
+    </g>
+
+    <g>
+      <use href="#butterfly" x="1020" y="40" width="42" height="42" opacity="0.75"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; -24,10; -45,-10; -66,4; -82,-8"
+        dur="6.5s" repeatCount="1" fill="freeze"/>
+      <animateTransform attributeName="transform" additive="sum" type="rotate"
+        values="0 1040 60; -4 1040 60; 4 1040 60; 0 1040 60"
+        dur="2.2s" repeatCount="3" fill="freeze"/>
+    </g>
+
+    <g>
+      <use href="#butterfly" x="915" y="185" width="34" height="34" opacity="0.65"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; -10,-12; 8,-24; 15,-10; 18,-18"
+        dur="5.5s" repeatCount="1" fill="freeze"/>
+      <animateTransform attributeName="transform" additive="sum" type="rotate"
+        values="0 932 202; 6 932 202; -5 932 202; 0 932 202"
+        dur="1.8s" repeatCount="3" fill="freeze"/>
+    </g>
+  </g>
+
+  <!-- title -->
+  <text x="600" y="118" text-anchor="middle"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="48" font-weight="700"
+        fill="url(#textGrad)">
+    Saja Abu Hasan
+  </text>
+
+  <text x="600" y="164" text-anchor="middle"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="22" font-weight="500"
+        fill="#6B5A7A">
+    Frontend Developer
+  </text>
+
+  <!-- subtle bottom accent -->
+  <rect x="250" y="205" width="700" height="2" rx="2" fill="#D5C0E4" fill-opacity="0.7"/>
+</svg>
