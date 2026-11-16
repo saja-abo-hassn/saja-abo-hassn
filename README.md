@@ -1,5 +1,10 @@
+
 <p align="center">
-  <img src="./assets/header-soft.svg" width="100%" alt="Saja Abu Hasan Header" />
+  <img
+    src="./profile-header-elegant.gif"
+    width="100%"
+    alt="Saja Abu Hasan - Animated Header"
+  />
 </p>
 
 <p align="center">
@@ -25,31 +30,29 @@
 ---
 
 ## About Me
+<h2>About Me</h2>
 
 <table>
-  <tr>
-    <td width="62%" valign="top">
+<tr>
+<td width="65%" valign="middle">
 
-I'm a **Frontend Developer** focused on building clean, modern, and responsive web interfaces.
+I'm a Frontend Developer passionate about building modern, elegant, and responsive web experiences.
 
-- Developing modern interfaces using **React.js** and **Next.js**
-- Working with **JavaScript** and **TypeScript**
-- Building reusable and responsive UI components
-- Using **Git** and **GitHub** in my workflow
-- Designing and planning interfaces with **Figma**
-- Currently learning **Node.js** and backend development
+- Developing interfaces using React.js and Next.js.
+- Working with JavaScript and TypeScript.
+- Building reusable UI components.
+- Using Git and GitHub.
+- Exploring UI/UX design with Figma.
+- Currently learning Node.js and backend development.
 
-<p>
-  <i>Clean code, elegant design, and meaningful user experiences.</i>
-</p>
+</td>
 
-   </td>
-    <td width="38%" align="center" valign="middle">
-      <img src="./assets/ai-assistant.png" width="250" alt="AI Assistant Character" />
-      <br />
-      <sub><b>My AI Assistant</b></sub>
-    </td>
-  </tr>
+<td width="35%" align="center" valign="middle">
+<img src="./ai-assistant.png" width="260" alt="My AI Assistant"/>
+<br/>
+<strong>My AI Assistant</strong>
+</td>
+</tr>
 </table>
 
 ---
