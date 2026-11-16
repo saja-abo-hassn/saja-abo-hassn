@@ -1,4 +1,3 @@
-
 name: Generate Purple Snake
 
 on:
@@ -17,15 +16,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Generate purple contribution snake
-        uses: Platane/snk/svg-only@v3
+      - name: Generate purple snake
+        uses: Platane/snk@v3
         with:
           github_user_name: saja-abo-hassn
           outputs: |
-            dist/github-snake.svg?color_snake=%238B72A8&color_dots=%23F8F5EF,%23E8DECF,%23DCCBE8,%23BBA5D0,%238B72A8
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=%23C8A2FF&color_dots=%230D1117,%231A1226,%23291D3D,%23493473,%238B72A8
 
-      - name: Publish snake animation
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+      - name: Push snake to output branch
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
