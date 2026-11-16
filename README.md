@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:FAF6F2,50:E8DDF4,100:CDB6E9&text=Saja%20Abu%20Hasan&fontColor=5B496D&fontSize=46&fontAlignY=40&desc=Frontend%20Developer&descSize=18&descAlignY=60&animation=fadeIn" width="100%" />
+  <img src="./assets/header-soft.svg" width="100%" alt="Saja Abu Hasan Header" />
 </p>
 
 <p align="center">
@@ -148,18 +148,16 @@ I'm a **Frontend Developer** focused on building clean, modern, and responsive w
 </p>
 
 ---
-
 ## GitHub Analytics
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=saja-abo-hassn&show_icons=true&hide_border=true&bg_color=0D1117&title_color=C8A2FF&text_color=F1EAF8&icon_color=B28AE6&cache_seconds=86400" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=saja-abo-hassn&layout=compact&hide_border=true&bg_color=0D1117&title_color=C8A2FF&text_color=F1EAF8&langs_count=6&cache_seconds=86400" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=saja-abo-hassn&show_icons=true&hide_border=true&bg_color=00000000&title_color=C8A2FF&text_color=EDE7F5&icon_color=B28AE6" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=saja-abo-hassn&layout=compact&hide_border=true&bg_color=00000000&title_color=C8A2FF&text_color=EDE7F5" />
 </p>
 
 <p align="center">
   <img width="75%" src="https://streak-stats.demolab.com?user=saja-abo-hassn&hide_border=true&background=0D1117&ring=C8A2FF&fire=E5C7FF&currStreakLabel=C8A2FF&sideNums=F1EAF8&sideLabels=CBB6E8&dates=B399D4&stroke=2A1F38" />
 </p>
-
 ---
 
 ## Let's Connect
@@ -182,4 +180,9 @@ I'm a **Frontend Developer** focused on building clean, modern, and responsive w
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&height=110&section=footer&color=0:FAF6F2,50:E8DDF4,100:CDB6E9" width="100%" />
+</p>
+## Contribution Activity
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/saja-abo-hassn/saja-abo-hassn/output/github-snake-dark.svg" alt="Purple contribution snake" width="100%" />
 </p>
